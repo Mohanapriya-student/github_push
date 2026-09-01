@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const CanWalk=
+        {
+            walk()
+            {
+                console.log("walking")
+            }
+        }
+        const CanEat={
+            eat()
+            {
+                console.log("eating")
+            }
+
+        };
+        class person{}
+        object.assign(person.prototype,CanWalk,CanEat)
+        const p=new person()
+        p.walk()
+        p.eat()
+    </script>
+</body>
+</html>

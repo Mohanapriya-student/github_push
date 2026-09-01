@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class seasons
+        {
+            climate()
+            {
+                console.log("every season has different climate")
+            }
+        }
+        class summer extends seasons
+        {
+            summer()
+            {
+                console.log("summer is hot")
+            }
+        }
+        class rainy extends seasons{
+            rainy()
+            {
+                 console.log("rainy season has rain")
+            }
+        }
+        class winter extends seasons{
+            winter()
+            {
+                console.log(" winter is cold")
+            }
+        }
+        let s=new summer()
+        s.climate()
+        s.summer()
+
+        let r=new rainy()
+        r.rainy()
+
+        let w=new winter()
+        w.winter()
+    </script>
+</body>
+</html>

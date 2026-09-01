@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class vehicle
+        {
+            start()
+            {
+                console.log("vehicle started")
+            }
+        }
+        class car extends vehicle
+        {
+            drive()
+            {
+                console.log("car is driving")
+            }
+        }
+        class sportscar extends car
+        {
+        speed()
+        {
+            console.log("sports car runs at high speed")
+        }
+        }
+        let c=new sportscar()
+        c.start()
+        c.drive()
+        c.speed()
+
+    </script>
+</body>
+</html>
